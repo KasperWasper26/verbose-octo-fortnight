@@ -2,12 +2,12 @@
    Transform — Body Tracker  |  sw.js  (Service Worker)
    ============================================================ */
 
-const CACHE_NAME = 'transform-v1';
+const CACHE_NAME = 'transform-v2';
 
 const PRECACHE = [
   '/',
-  '/index.html',
-  '/manifest.json',
+  './index.html',
+  './manifest.json',
   'https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=DM+Sans:wght@300;400;500&display=swap',
 ];
 
